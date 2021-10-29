@@ -1,0 +1,174 @@
+/* tulis CSS nya sendiri ya, mengikuti seperti dalam video,
+selamat belajar.. ^^ */
+body{
+    font-family: "Monstserrat","Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#topbar{
+    background-color: #041F4E;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+  
+}       
+.top-contact, .sosmed{
+    list-style: none;
+}
+
+#topbar li{
+    display: inline-block;
+}
+
+#topbar li a{
+    display: inline-block;
+    color: #fff;
+    padding: 0 20px;
+}
+
+#topbar li a i {
+    color: #fff;
+    margin-right: 5px;
+}
+
+#topbar .sosmed li a{
+    padding: 0 5px;
+}
+
+/* css untuk header */
+
+header{
+    padding: 20px 0;
+    
+}
+.brand{
+    display: flex;
+}
+
+.brand img{
+    width: 80;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.brand .brand-name h1{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.brand .brand-name h3{
+    font-size: 18px;
+    font-family: Relaway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+
+/* css Navbar */
+
+.navbar{
+   padding: o;
+   height: 50px;
+   background-color:#041F4E ;
+   color: #fff;
+
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+    background-color: #EAD508;
+    color:#fff;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    padding: 10px 15px;
+}
+
+.nav-item{
+    padding: 8px 15px;
+    color: #fff;
+}
+.navbar-light .navbar-toggler{
+    color: #fff;
+    border-radius: none;
+    outline: none;
+}
+
+/* Css carousel */
+
+.carousel-item{
+    height: 500px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+/* home */
+/* event */
+.bg-blue{
+    background-color: #041F4E ;
+    color: #fff;
+    height: 100px;
+}
+
+.bg-blue h3{
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* Css Footer */
+
+footer{
+    background-color:#041F4E ;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+/* Profile */
+
+#tentang{
+    background-color:#6596B4 ;
+    margin-right: 10px; 
+    padding-left: 20px;
+}
+
+.job{
+    list-style: none;
+    display: flex;
+    width: 10px;
+    padding-left: 0;
+}
+
+.contact{
+    list-style: none;
+    padding: 1px;
+}
+
+#Visi{
+    background-color: #EAD508;
+    height: max-content;
+}
+
+
+/* berita */
+
+#events{
+    background-color: #B4CFE2;
+    height: 100px;
+    text-align: center;
+}
+
+/* even*/
+.lingkar{
+    width: 20px;
+	height: 20px;
+    background: black;
+    border-radius: 100%;
+}
+
+.garis{
+    border-left: 1px black solid;
+    height: 170px;
+    display: inline-block;
+    padding-left: 5px;
+    color: black;
+}
+
